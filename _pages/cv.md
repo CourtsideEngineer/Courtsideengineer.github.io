@@ -9,56 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Lebenslauf
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* ab 2026 Entwicklungsingenieur bei der Firma GROB-WERKE GmbH & Co. KG
+* 2026 Bachelor of Engineering an der Technische Hochschule Ulm
+* 2024 Ausbildungsabschluss Industriemechaniker
+* 2021-2026 Duales Studium Maschinenbau bei der Firma GROB-WERKE GmbH & Co. KG
+* 2021 Abitur am Ringeisengymnasium Ursberg
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Software
+  * CAD-Programme: SiemensNX, Fusion360, FreeCAD, OnShape, AutoCAD
+  * FEM-Berechnung: Ansys, NX Strukturanalyse
+  * Büro-Basics: Office365, SAP
+  * 3D-Druck: Bambu-Slicer und diverse andere Slicer-Programme
+* Hardware
+  * Konventionelles Fräsen & Drehen (Ausbildung)
+  * Montage und Einrichtung von diversen Baugruppen (Ausbildung)
+  * Pneumatik- und Hydraulikschaltungen entwerfen & aufbauen (Ausbildung)
+  * Elektro-Schaltpläne entwerfen & aufbauen (Ausbildung, Hobby)
+  * Löten (Hobby)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
+Hobbies
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Tennis spielen, Mannschaft
+* verschiedene sportliche Verausgabungen
+* kleine technische Projekte entwickeln, fertigen und optimieren
