@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "courtside engineer / project portfolio"
+title                    : "Projektportfolio"
 title_separator          : "-"
-name                     : &name "Mr. Jeff"
+name                     : &name "Johannes Haisch"
 description              : &description "Diverse technische Projekte und Konstruktionen"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://courtsideengineer.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,13 +24,13 @@ repository               : # "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Mr. Jeff"
+  name             : "Johannes Haisch"
   pronouns         : # example: "she/her"  
-  bio              : "Mechanical engineer"
-  location         : "Bavaria, Germany"
-  employer         : "---"
+  bio              : "Maschinenbauingenieur"
+  location         : "Bayern, Deutschland"
+  employer         : "GROB-WERKE GmbH & Co. KO"
   uri              : # URL
-  email            : "---@---.de" 
+  email            : "j.haisch@gmx.de" 
 
   # Academic websites
   academia         : # URL
