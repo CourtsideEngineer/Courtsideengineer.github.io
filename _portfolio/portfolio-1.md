@@ -1,6 +1,6 @@
 ---
 title: "Messedemonstrator Studienarbeit"
-excerpt: "Ein Demonstrator für Hochschulmessen, der mittels einer Kamera und Objekterkennung verschiedenen Objekten oder Personen folgen kann.<br/><img src='/images/500x300.png'>"
+excerpt: "Ein Demonstrator für Hochschulmessen, der mittels einer Kamera und Objekterkennung verschiedenen Objekten oder Personen folgen kann.<br/><img src='/images/hoehenmesser_1_zuge.png'>"
 collection: portfolio
 ---
 
