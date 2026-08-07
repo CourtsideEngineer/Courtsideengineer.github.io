@@ -35,6 +35,6 @@ Skills
   
 Hobbies
 ======
-* Tennis spielen, Mannschaft
-* verschiedene sportliche Verausgabungen
+* Tennis spielen, Mannschaftssport
+* sportliche Aktivitäten, wie Wandern und Joggen
 * kleine technische Projekte entwickeln, fertigen und optimieren
