@@ -6,4 +6,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-platzhalter, dass ich die seite wieder finde
+Technisches Portfolio von Johannes Haisch
+-
+Eine Sammlung verschiedener technischer Projekte.
+
+Darunter:
+- CAD
+- Simulation
+- Produktentwicklung
+- 3D-Druck
+
+
