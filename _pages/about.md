@@ -6,13 +6,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Technisches Portfolio von Johannes Haisch
+Technisches Portfolio
 -
-Eine Sammlung verschiedener technischer Projekte.
+Von der ersten Idee bis zum fertigen Prototypen:
+Eine Sammlung ausgewählter Projekte aus Konstruktion, Entwicklung und Fertigung
 
-Darunter:
+Fokusbereiche:
 - CAD
-- Simulation
+- Microcontroller
 - Produktentwicklung
 - 3D-Druck
 
