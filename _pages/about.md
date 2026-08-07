@@ -8,8 +8,9 @@ redirect_from:
 ---
 Technisches Portfolio
 -
-Von der ersten Idee bis zum fertigen Prototypen:
+Von ersten Ideen bis zu fertigen Prototypen:
 Eine Sammlung ausgewählter Projekte aus Konstruktion, Entwicklung und Fertigung
+
 
 Fokusbereiche:
 - CAD
