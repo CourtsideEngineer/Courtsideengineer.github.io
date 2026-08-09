@@ -4,7 +4,7 @@ excerpt: "Ein tragbarer batteriebetriebener höhenmesser mit verschiedenen Funkt
 collection: portfolio
 ---
 Der barometrische Höhenmesser war mein erstes eigenständig entwickeltes Mikrocontroller-Projekt und markiert zugleich meinen Einstieg in die Elektronik- und Embedded-Entwicklung. Ausgangspunkt war die Idee, ein tragbares Gerät zu entwickeln, das die Höhe – ähnlich wie frühere Fahrradcomputer – anhand des atmosphärischen Luftdrucks bestimmen kann. Im Rahmen einer thermodynamischen Vorlesung wurde mir bewusst, dass sich aus Druck und Temperatur die Höhe näherungsweise berechnen lässt. Diese theoretischen Grundlagen bildeten die Motivation, das Konzept praktisch umzusetzen.
-<img src='/images/höhenmesser_2.png'>
+<img src='images/Hoehenmesser_2.png'>
 
 Die Hardware basiert auf einem Arduino Nano, einem barometrischen Drucksensor sowie einem Display zur Visualisierung der Messwerte. Für mich war das Projekt die erste intensive Auseinandersetzung mit der Arduino-Plattform und der Mikrocontrollerprogrammierung. Durch die Kombination aus Literatur, Online-Tutorials und eigenen Experimenten entstand Schritt für Schritt ein funktionsfähiger Prototyp.
 
