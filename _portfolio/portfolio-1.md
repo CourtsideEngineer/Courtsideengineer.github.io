@@ -14,4 +14,3 @@ Ein weiterer wichtiger Meilenstein war die Entwicklung einer eigenen Leiterplatt
 Zu einem späteren Zeitpunkt ergänzte ich das Projekt um ein selbst konstruiertes Gehäuse sowie einen Akku mit integrierter Ladeelektronik. Dadurch wurde aus dem Versuchsaufbau ein tragbares Gerät. Aus heutiger Sicht würde ich die mechanische Integration jedoch grundlegend überarbeiten, da sich die meisten elektronischen Komponenten weiterhin außerhalb des Gehäuses befanden und lediglich die Stromversorgung geschützt untergebracht war.
 <br/><img src='/images/Hoehenmesser_6.jpeg'><br/>
 Rückblickend war dieses Projekt ein entscheidender Meilenstein meiner technischen Entwicklung. Als Maschinenbauingenieur eröffnete es mir den Zugang zur Elektronik, Leiterplattenentwicklung und Mikrocontrollerprogrammierung und legte damit die Grundlage für zahlreiche spätere Projekte.
-<br/><img src='/images/Watchtower_1.jpeg'><br/>
