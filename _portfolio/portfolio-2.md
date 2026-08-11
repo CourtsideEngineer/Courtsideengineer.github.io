@@ -1,16 +1,20 @@
----
-title: "Watchtower"
-excerpt: "Eine zweiachsig bewegbare Kamera, die mit Hilfe von Objekterkennung verschiedenen Objekten oder Personen folgen kann.<br/><img src='/images/Watchtower_1.jpeg'>"
+
+
+
+
+⸻
+
+title: “Watchtower”
+excerpt: “Ein kamerabasiertes System zur automatisierten Objekt- und Personenverfolgung.”
 collection: portfolio
----
-Der barometrische Höhenmesser war mein erstes eigenständig entwickeltes Mikrocontroller-Projekt und markiert zugleich meinen Einstieg in die Elektronik- und Embedded-Entwicklung. Ausgangspunkt war die Idee, ein tragbares Gerät zu entwickeln, das die Höhe – ähnlich wie frühere Fahrradcomputer – anhand des atmosphärischen Luftdrucks bestimmen kann. Im Rahmen einer thermodynamischen Vorlesung wurde mir bewusst, dass sich aus Druck und Temperatur die Höhe näherungsweise berechnen lässt. Diese theoretischen Grundlagen bildeten die Motivation, das Konzept praktisch umzusetzen.
-<br/><img src='/images/Hoehenmesser_2.jpeg'><br/>
-Die Hardware basiert auf einem Arduino Nano, einem barometrischen Drucksensor sowie einem Display zur Visualisierung der Messwerte. Für mich war das Projekt die erste intensive Auseinandersetzung mit der Arduino-Plattform und der Mikrocontrollerprogrammierung. Durch die Kombination aus Literatur, Online-Tutorials und eigenen Experimenten entstand Schritt für Schritt ein funktionsfähiger Prototyp.
-<br/><img src='/images/Hoehenmesser_3.jpeg'><br/>
-Im weiteren Verlauf wurde das System um einen Gyrosensor erweitert, wodurch zusätzlich ein künstlicher Horizont realisiert werden konnte. Die Idee dahinter war, verschiedene Mess- und Anzeigefunktionen in einem kompakten Gerät zu vereinen – inspiriert von den Instrumentenanzeigen in Geländefahrzeugen wie dem Mitsubishi Pajero.
-<br/><img src='/images/Hoehenmesser_4.jpeg'><br/>
-Ein weiterer wichtiger Meilenstein war die Entwicklung einer eigenen Leiterplatte. Hierfür setzte ich erstmals KiCad ein, um den Schaltplan zu erstellen und das PCB-Layout zu entwerfen. Die fertigen Gerber-Dateien wurden anschließend an einen Leiterplattenhersteller übermittelt, der die Platine produzierte. Nach der Bestückung und dem Verlöten der Komponenten entstand ein deutlich kompakterer und robusterer Aufbau als der ursprüngliche Prototyp auf dem Steckbrett.
-<br/><img src='/images/Hoehenmesser_5.jpeg'><br/>
-Zu einem späteren Zeitpunkt ergänzte ich das Projekt um ein selbst konstruiertes Gehäuse sowie einen Akku mit integrierter Ladeelektronik. Dadurch wurde aus dem Versuchsaufbau ein tragbares Gerät. Aus heutiger Sicht würde ich die mechanische Integration jedoch grundlegend überarbeiten, da sich die meisten elektronischen Komponenten weiterhin außerhalb des Gehäuses befanden und lediglich die Stromversorgung geschützt untergebracht war.
-<br/><img src='/images/Hoehenmesser_6.jpeg'><br/>
-Rückblickend war dieses Projekt ein entscheidender Meilenstein meiner technischen Entwicklung. Als Maschinenbauingenieur eröffnete es mir den Zugang zur Elektronik, Leiterplattenentwicklung und Mikrocontrollerprogrammierung und legte damit die Grundlage für zahlreiche spätere Projekte.
+
+Im Rahmen einer Studienarbeit an der Technischen Hochschule Ulm entstand gemeinsam mit einem Kommilitonen der „Watchtower“ – ein zweiachsig beweglicher Kameraturm zur automatisierten Erkennung und Verfolgung von Objekten und Personen. Als zentrale Recheneinheit kam ein Raspberry Pi zum Einsatz, der in Kombination mit einer Kamera und dem Objekterkennungsmodell YOLO die Umgebung analysieren und relevante Objekte identifizieren konnte.
+<br/><img src='/images/Watchtower_1.jpeg'><br/>
+Die Kamera war auf einer zweiachsigen kinematischen Plattform montiert und konnte sowohl in der horizontalen als auch in der vertikalen Ebene bewegt werden. Dadurch war es möglich, erkannte Personen oder Objekte kontinuierlich im Sichtfeld der Kamera zu halten und deren Bewegungen nachzuverfolgen. Neben der technischen Umsetzung stand dabei insbesondere die Entwicklung eines funktionalen und mechanisch stabilen Gesamtsystems im Vordergrund.
+<br/><img src='/images/Watchtower_2.jpeg'><br/>
+Im Rahmen des Projekts übernahm ich die vollständige mechanische Konstruktion des Towers. Da die vorhandenen 3-D-Drucker der Hochschule aufgrund ihrer hohen Auslastung nur eingeschränkt zur Verfügung standen, entschied ich mich, für die Dauer der Studienarbeit in einen eigenen 3-D-Drucker zu investieren. Dadurch konnte ich die einzelnen Komponenten unabhängig fertigen, iterativ anpassen und direkt am Prototyp testen. Die Konstruktion erfolgte auf Basis meiner vorhandenen CAD-Kenntnisse, während ich mich parallel in die Anforderungen des 3-D-Drucks und die zugehörige Slicer-Software einarbeitete.
+<br/><img src='/images/Watchtower_3.jpeg'><br/>
+Während mein Projektpartner hauptsächlich für die Programmierung, Objekterkennung und die IT-seitige Umsetzung verantwortlich war, übernahm ich neben der mechanischen Konstruktion auch die Verkabelung, Montage und Integration der einzelnen Komponenten. Nach einem Semester konnte der Watchtower als funktionsfähiger Prototyp fertiggestellt und dem betreuenden Professor präsentiert werden. Ein besonderes Detail war dabei ein kleiner Präsentationsmechanismus: Wenn die Kamera länger als zehn Sekunden ein erkanntes Objekt fokussierte und dieses sich nicht bewegte, klappte ein Element um 90° nach unten und gab einen Schriftzug frei. Dieser bewusst spielerische Mechanismus war für den späteren Einsatz des Systems auf Messeständen der Technischen Hochschule vorgesehen.
+<br/><img src='/images/Watchtower_4.jpeg'><br/>
+Rückblickend war das Projekt insbesondere im Hinblick auf Rapid Prototyping und die praktische Umsetzung einer interdisziplinären Aufgabenstellung wertvoll. Neben der mechanischen Konstruktion konnte ich umfangreiche Erfahrungen im 3-D-Druck, in der Systemintegration und im Budgetmanagement sammeln. Gleichzeitig zeigte das Projekt, wie sich klassische Ingenieursmethoden mit modernen Fertigungsverfahren und kamerabasierter künstlicher Intelligenz zu einem funktionierenden Gesamtsystem verbinden lassen.
+
