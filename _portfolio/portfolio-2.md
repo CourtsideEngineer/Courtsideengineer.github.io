@@ -1,12 +1,8 @@
-
-
-
-
-⸻
-
-title: “Watchtower”
-excerpt: “Ein kamerabasiertes System zur automatisierten Objekt- und Personenverfolgung.”
+---
+title: "Watchtower"
+excerpt: "Ein kamerabasiertes System zur automatisierten Objekt- und Personenverfolgung.<br/><img src='/images/Watchtower_1.jpeg'>"
 collection: portfolio
+---
 
 Im Rahmen einer Studienarbeit an der Technischen Hochschule Ulm entstand gemeinsam mit einem Kommilitonen der „Watchtower“ – ein zweiachsig beweglicher Kameraturm zur automatisierten Erkennung und Verfolgung von Objekten und Personen. Als zentrale Recheneinheit kam ein Raspberry Pi zum Einsatz, der in Kombination mit einer Kamera und dem Objekterkennungsmodell YOLO die Umgebung analysieren und relevante Objekte identifizieren konnte.
 <br/><img src='/images/Watchtower_1.jpeg'><br/>
