@@ -1,6 +1,6 @@
 ---
-title: “Braun Tischlüfter”
-excerpt: “Ein minimalistischer Tischlüfter, inspiriert vom Design von Dieter Rams und den klassischen Braun-Produkten.<br/><img src='/images/Braun_1.jpeg'>”
+title: Braun Tischlüfter
+excerpt: Ein minimalistischer Tischlüfter, inspiriert vom Design von Dieter Rams und den klassischen Braun-Produkten.<br/><img src='/images/Braun_1.jpeg'>
 collection: portfolio
 ---
 <img src='/images/Braun_1.jpeg'><br/>
