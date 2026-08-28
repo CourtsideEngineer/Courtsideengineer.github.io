@@ -9,13 +9,8 @@ redirect_from:
 Technisches Portfolio
 -
 Von ersten Ideen bis zu fertigen Prototypen:
-Eine Sammlung ausgewählter Projekte aus Konstruktion, Entwicklung und Fertigung
+Eine Sammlung meiner Projekte aus Konstruktion, Entwicklung und Fertigung
 
 
-Fokusbereiche:
-- CAD
-- Microcontroller
-- Produktentwicklung
-- 3D-Druck
 
 
