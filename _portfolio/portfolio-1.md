@@ -1,6 +1,6 @@
 ---
 title: "Barometrischer Höhenmesser"
-excerpt: "Ein tragbarer batteriebetriebener höhenmesser mit verschiedenen Funktionen.<br/><img src='/images/hoehenmesser_1_zuge.png'>"
+excerpt: "Ein tragbarer batteriebetriebener höhenmesser mit verschiedenen Funktionen.<br/><img src='/images/Hoehenmesser_2.jpeg'>"
 collection: portfolio
 ---
 Der barometrische Höhenmesser war mein erstes eigenständig entwickeltes Mikrocontroller-Projekt und markiert zugleich meinen Einstieg in die Elektronik- und Embedded-Entwicklung. Ausgangspunkt war die Idee, ein tragbares Gerät zu entwickeln, das die Höhe – ähnlich wie frühere Fahrradcomputer – anhand des atmosphärischen Luftdrucks bestimmen kann. Im Rahmen der Thermodynamik-Vorlesung lernte ich, dass sich aus Druck und Temperatur die Höhe näherungsweise berechnen lässt. Diese theoretischen Grundlagen bildeten die Motivation, das Konzept praktisch umzusetzen.
