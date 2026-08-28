@@ -1,6 +1,6 @@
 ---
 title: "Watchtower"
-excerpt: "Ein kamerabasiertes System zur automatisierten Objekt- und Personenverfolgung.<br/><img src='/images/Watchtower_1.jpeg'>"
+excerpt: "Ein kamerabasiertes System zur automatisierten Objekt- und Personenverfolgung.<br/><br/><img src='/images/Watchtower_1.jpeg'>"
 collection: portfolio
 ---
 
