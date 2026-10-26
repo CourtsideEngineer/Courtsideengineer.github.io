@@ -1,16 +1,37 @@
 ---
-title: "Barometrischer Höhenmesser"
-excerpt: "Ein tragbarer batteriebetriebener Höhenmesser.<br/><br/><img src='/images/Hoehenmesser_2.jpeg'>"
+title: "Eigenbau eines RC-Flugzeugs mit 3D-gedrucktem Flügel"
+excerpt: "Entwicklung und Bau eines ferngesteuerten Flugzeugs mit einem selbst konstruierten und 3D-gedruckten Tragflügel.<br/><br/><img src='/images/plane_1.jpeg'>"
 collection: portfolio
 ---
-Der barometrische Höhenmesser war mein erstes eigenständig entwickeltes Mikrocontroller-Projekt und markiert zugleich meinen Einstieg in die Elektronik- und Embedded-Entwicklung. Ausgangspunkt war die Idee, ein tragbares Gerät zu entwickeln, das die Höhe – ähnlich wie frühere Fahrradcomputer – anhand des atmosphärischen Luftdrucks bestimmen kann. Im Rahmen der Thermodynamik-Vorlesung lernte ich, dass sich aus Druck und Temperatur die Höhe näherungsweise berechnen lässt. Diese theoretischen Grundlagen bildeten die Motivation, das Konzept praktisch umzusetzen.
-<br/><br/><img src='/images/Hoehenmesser_2.jpeg'><br/><br/>
-Die Hardware basiert auf einem Arduino Nano, einem barometrischen Drucksensor sowie einem Display zur Visualisierung der Messwerte. Für mich war das Projekt die erste intensive Auseinandersetzung mit der Arduino-Plattform und der Mikrocontrollerprogrammierung. Durch die Kombination aus Literatur, Online-Tutorials und eigenen Experimenten entstand Schritt für Schritt ein funktionsfähiger Prototyp.
-<br/><br/><img src='/images/Hoehenmesser_3.jpeg'><br/><br/>
-Im weiteren Verlauf wurde das System um einen Gyrosensor erweitert, wodurch zusätzlich ein künstlicher Horizont realisiert werden konnte. Die Idee dahinter war, verschiedene Mess- und Anzeigefunktionen in einem kompakten Gerät zu vereinen – inspiriert von den Instrumentenanzeigen in Geländefahrzeugen wie dem Mitsubishi Pajero.
-<br/><br/><img src='/images/Hoehenmesser_4.jpeg'><br/><br/>
-Ein weiterer wichtiger Meilenstein war die Entwicklung einer eigenen Leiterplatte. Hierfür setzte ich erstmals KiCad ein, um den Schaltplan zu erstellen und das PCB-Layout zu entwerfen. Die fertigen Gerber-Dateien wurden anschließend an einen Leiterplattenhersteller übermittelt, der die Platine fertigte. Nach der Bestückung und dem Verlöten der Komponenten wurde die Funktion des Aufbaus erfolgreich getestet.
-<br/><br/><img src='/images/Hoehenmesser_5.jpeg'><br/><br/>
-Zu einem späteren Zeitpunkt ergänzte ich das Projekt um ein selbst konstruiertes Gehäuse sowie einen Akku mit integrierter Ladeelektronik. Dadurch wurde aus dem Versuchsaufbau ein tragbares Gerät. Aus heutiger Sicht würde ich die mechanische Integration jedoch grundlegend überarbeiten, da sich die meisten elektronischen Komponenten weiterhin außerhalb des Gehäuses befanden und lediglich die Stromversorgung geschützt untergebracht war.
-<br/><br/><img src='/images/Hoehenmesser_6.jpeg'><br/><br/>
-Rückblickend war dieses Projekt ein entscheidender Meilenstein meiner technischen Entwicklung. Als Maschinenbauingenieur eröffnete es mir den Zugang zur Elektronik, Leiterplattenentwicklung und Mikrocontrollerprogrammierung und legte damit die Grundlage für zahlreiche spätere Projekte.
+
+Da mich das Fliegen schon lange fasziniert, entschied ich mich dazu, mein erstes eigenes Modellflugzeug zu bauen. Da ich zuvor keinerlei Erfahrung im Modellflug hatte, begann ich zunächst damit, mich in die Grundlagen einzuarbeiten. Dabei beschäftigte ich mich mit den grundlegenden aerodynamischen Zusammenhängen, den Gründen für den Auftrieb und den Berechnungen, die für die Auslegung eines flugfähigen Flugzeugs notwendig sind.
+
+Anschließend untersuchte ich verschiedene Eigenbauprojekte und entwickelte die Idee, ein Flugzeug mit einem 3D-Drucker herzustellen. Nach ersten CAD-Modellierungen stellte ich jedoch fest, dass ein vollständig 3D-gedrucktes Flugzeug für meinen Aufbau zu schwer werden würde. Deshalb entschied ich mich, nur den Tragflügel zu drucken und die übrige Struktur leichter aufzubauen.
+
+<br/><br/><img src='/images/plane_1.jpeg'><br/><br/>
+
+Parallel zur Konstruktion suchte ich die benötigten Komponenten zusammen. Dazu gehörten ein Elektromotor mit Propeller, ein elektronischer Drehzahlregler (ESC), ein Akkumulator, ein Funkempfänger mit passender Fernsteuerung sowie Servomotoren zur Betätigung der Ruder. Zusätzlich mussten die mechanische Verbindung zwischen Flügel und Rumpf sowie die Verkabelung und Stromversorgung der Komponenten berücksichtigt werden.
+
+Für den Tragflügel konstruierte ich ein Profil auf Basis des NACA 2412. Nach mehreren Anpassungen der CAD-Geometrie und der Druckparameter gelang es mir, den Flügel in vier Einzelteilen zu drucken. Diese wurden mithilfe von Holzstäben miteinander verbunden, um die notwendige Stabilität zu erreichen. Das Gewicht des fertigen Tragflügels lag unter 120 g.
+
+Zusammen mit dem Antrieb, der Elektronik und der restlichen Flugzeugstruktur ergab sich ein berechnetes Gesamtgewicht von etwa 695 g. Damit war das Modell etwas schwerer als ursprünglich angestrebt. Da ich das Projekt jedoch bewusst als ersten praktischen Versuch angelegt hatte, entschied ich mich, den Aufbau fertigzustellen und die Flugfähigkeit zu testen.
+
+<br/><br/><img src='/images/plane_2.jpeg'><br/><br/>
+
+## Die ersten Flugversuche
+
+Vor meinem ersten Flug hatte ich keinerlei praktische Erfahrung mit ferngesteuerten Flugzeugen. Trotz der häufigen Empfehlung, zunächst in einem Flugsimulator zu üben, entschied ich mich dazu, das Modell direkt im Freien zu testen. Ich startete das Flugzeug aus der Hand mit ungefähr halber Motorleistung.
+
+Zu meiner Überraschung legte das Modell bei seinem ersten Flug eine Strecke von etwa 150 m zurück und blieb dabei erstaunlich gut in der Luft. Die Landung beziehungsweise der Absturz am Ende war allerdings weniger erfolgreich und vor allem auf meine fehlende Flugerfahrung zurückzuführen.
+
+Glücklicherweise beschränkten sich die Schäden zunächst auf einen Bruch des Rumpfes an einer Klebestelle. Ich reparierte das Flugzeug noch am selben Tag und unternahm anschließend einen zweiten Flugversuch. Dabei erreichte das Modell eine größere Flugstrecke, bevor es erneut abstürzte. Diesmal waren die Schäden deutlich schwerwiegender.
+
+<br/><br/><img src='/images/plane_3.jpeg'><br/><br/>
+
+## Fazit und Ausblick
+
+Auch wenn das Flugzeug letztendlich nicht dauerhaft flugfähig blieb, war das Projekt für mich ein gelungener Einstieg in den Modellflug. Von den aerodynamischen Grundlagen über die CAD-Konstruktion und den 3D-Druck bis hin zur Auswahl der Elektronik und den ersten Flugversuchen konnte ich zahlreiche neue Erfahrungen sammeln.
+
+Bei einem weiteren Flugzeug möchte ich insbesondere das Gewicht, die Konstruktion und die Flugeigenschaften verbessern. Geplant ist ein größeres Modell, das sich durch eine ruhigere Flugcharakteristik leichter steuern lässt.
+
+Langfristig möchte ich mich außerdem mit der Entwicklung eines eigenen Flugcomputers beschäftigen. Dieser soll die Fluglage und Position mithilfe geeigneter Sensoren stabilisieren und regeln können. Perspektivisch wäre auch eine GPS-gestützte Navigation denkbar, mit der das Flugzeug vorgegebene Wegpunkte oder Routen abfliegen kann.
