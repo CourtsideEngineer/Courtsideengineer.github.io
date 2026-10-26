@@ -1,10 +1,10 @@
 ---
-title: "Eigenbau eines RC-Flugzeugs mit 3D-gedrucktem Flügel"
+title: "Eigenbau eines RC-Flugzeugs"
 excerpt: "Entwicklung und Bau eines ferngesteuerten Flugzeugs mit einem selbst konstruierten und 3D-gedruckten Tragflügel.<br/><br/><img src='/images/Plane_1.jpeg'>"
 collection: portfolio
 ---
 
-Da mich das Fliegen schon lange fasziniert, entschied ich mich dazu, mein erstes eigenes Modellflugzeug zu bauen. Da ich zuvor keinerlei Erfahrung im Modellflug hatte, begann ich zunächst damit, mich in die Grundlagen einzuarbeiten. Dabei beschäftigte ich mich mit den grundlegenden aerodynamischen Zusammenhängen, den Gründen für den Auftrieb und den Berechnungen, die für die Auslegung eines flugfähigen Flugzeugs notwendig sind.
+Da mich das Fliegen schon lange fasziniert, entschied ich mich dazu, mein erstes eigenes Modellflugzeug zu bauen. Da ich zuvor keinerlei Erfahrung im Modellflug hatte, begann ich zunächst damit, mich in die Grundlagen einzuarbeiten. Dabei beschäftigte ich mich mit den grundlegenden aerodynamischen Zusammenhängen, den Gründen für den Auftrieb und den Berechnungen, die für die Auslegung eines flugfähigen Flugzeugs notwendig sind. Eine große Hilfe dafür waren mir zahlreiche Youtube-Videos
 
 Anschließend untersuchte ich verschiedene Eigenbauprojekte und entwickelte die Idee, ein Flugzeug mit einem 3D-Drucker herzustellen. Nach ersten CAD-Modellierungen stellte ich jedoch fest, dass ein vollständig 3D-gedrucktes Flugzeug für meinen Aufbau zu schwer werden würde. Deshalb entschied ich mich, nur den Tragflügel zu drucken und die übrige Struktur leichter aufzubauen.
 
